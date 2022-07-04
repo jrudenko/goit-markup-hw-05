@@ -12,7 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
@@ -28,7 +29,7 @@
                 <!-- Навігація сайту -->
                 <ul class="list">
                     <li class="link"><a class="nav" href="./index.html">Студія</a></li>
-                    <li class="link"><a class="nav current" href="">Портфоліо</a></li>
+                    <li class="link active"><a class="nav current" href="">Портфоліо</a></li>
                     <li class="link"><a class="nav" href="">Контакти</a></li>
                 </ul>
             </nav>
@@ -51,14 +52,14 @@
                     </a>
                 </li>
             </ul>
-        </div>    
+        </div>
     </header>
     <main>
         <!-- Секція Роботи -->
         <section class="section">
             <div class="container">
                 <h1 hidden>Приклади робіт</h1>
-                
+
                 <!-- Секція Радіокнопки -->
                 <ul class="about-btn">
                     <li class="control"><button type="button" class="list-btn list-btn-current">Усі</button></li>
@@ -67,22 +68,43 @@
                     <li class="control"><button type="button" class="list-btn">Дизайн</button></li>
                     <li class="control"><button type="button" class="list-btn">Маркетинг</button></li>
                 </ul>
-                
+
                 <!-- Секція Карток -->
                 <ul class="list about-portfolio card-set ">
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/Технокряк.jpg" alt="Фото роботи Технокряк" width="370" height="294">
+                            <div class="product">
+                                <img src="./images/Технокряк.jpg" alt="Фото роботи Технокряк" width="370" height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot">Технокряк</h2>
                                 <p class="category">Веб-сайт</p>
                             </div>
+
                         </a>
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/New_Orlean.jpg" alt="Фото роботи Постер New Orlean vs Golden Star" width="370"
-                                height="294">
+                            <div class="product">
+                                <img src="./images/New_Orlean.jpg" alt="Фото роботи Постер New Orlean vs Golden Star"
+                                    width="370" height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                                 <p class="category">Дизайн</p>
@@ -91,7 +113,18 @@
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/Seafood.jpg" alt="Фото роботи Ресторан Seafood" width="370" height="294">
+                            <div class="product">
+                                <img src="./images/Seafood.jpg" alt="Фото роботи Ресторан Seafood" width="370"
+                                    height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot">Ресторан <span lang="en">Seafood</span></h2>
                                 <p class="category">Додаток</p>
@@ -100,7 +133,17 @@
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/Prime.jpg" alt="Фото роботи роект Prime" width="370" height="294">
+                            <div class="product">
+                                <img src="./images/Prime.jpg" alt="Фото роботи роект Prime" width="370" height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot">Проект <span lang="en">Prime</span></h2>
                                 <p class="category">Маркетинг</p>
@@ -109,7 +152,17 @@
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/Boxes.jpg" alt="Фото роботи Проект Boxes" width="370" height="294">
+                            <div class="product">
+                                <img src="./images/Boxes.jpg" alt="Фото роботи Проект Boxes" width="370" height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot">Проект <span lang="en">Boxes</span></h2>
                                 <p class="category">Додаток</p>
@@ -118,7 +171,18 @@
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/Inspiration.jpg" alt="Фото роботи Inspiration has no Borders" width="370" height="294">
+                            <div class="product">
+                                <img src="./images/Inspiration.jpg" alt="Фото роботи Inspiration has no Borders"
+                                    width="370" height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot"><span lang="en">Inspiration has no Borders</span></h2>
                                 <p class="category">Веб-сайт</p>
@@ -127,8 +191,18 @@
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/Limited_Edition.jpg" alt="Фото роботи Видавництво Limited Edition" width="370"
-                                height="294">
+                            <div class="product">
+                                <img src="./images/Limited_Edition.jpg" alt="Фото роботи Видавництво Limited Edition"
+                                    width="370" height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot">Видавництво <span lang="en">Limited Edition</span></h2>
                                 <p class="category">Дизайн</p>
@@ -137,7 +211,17 @@
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/LAB.jpg" alt="Фото роботи Проект LAB" width="370" height="294">
+                            <div class="product">
+                                <img src="./images/LAB.jpg" alt="Фото роботи Проект LAB" width="370" height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot">Проект <span lang="en">LAB</span></h2>
                                 <p class="category">Маркетинг</p>
@@ -146,7 +230,19 @@
                     </li>
                     <li class="card-portfolio card-set-item">
                         <a href="">
-                            <img src="./images/Growing-Business.jpg" alt="Фото роботи Growing Business" width="370" height="294">
+                            <div class="product">
+                                <img src="./images/Growing-Business.jpg" alt="Фото роботи Growing Business" width="370"
+                                    height="294">
+                                <div class="product-overlay">
+                                    <p class="lead">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить
+                                        відвідувачеві
+                                        отримати
+                                        вичерпні відомості про компанію або приватну особу.
+                                    </p>
+                                </div>
+
+                            </div>
                             <div class="inner">
                                 <h2 class="apply-robot"><span lang="en">Growing Business</span></h2>
                                 <p class="category">Додаток</p>
@@ -154,13 +250,13 @@
                         </a>
                     </li>
                 </ul>
-            </div>            
-        
+            </div>
+
         </section>
 
     </main>
     <!-- Секція Футер -->
-    
+
     <footer class="footer">
         <div class="container">
             <div class="holder">
@@ -220,7 +316,7 @@
                 </ul>
             </div>
         </div>
-    </footer>  
+    </footer>
 
 </body>
 
